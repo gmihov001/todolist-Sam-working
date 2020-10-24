@@ -1,3 +1,33 @@
 .navbar {
     background-color: rgba(255, 255, 255, 0);
 }
+.homeSym.navbar-brand{
+    color: rgb(252, 190, 46);
+        border-bottom: 1px solid rgb(214,162,39);
+}
+.homeSym.navbar-brand:hover {
+    font-size: 42px;
+    color: rgb(253, 191, 47);
+    border: 2px solid rgb(255, 192, 46);
+    box-shadow: 10px 10px 10px;
+    border-radius: 6px;
+    padding: 5px;
+}
+.navbar-brand{
+    font-size: 42px;
+    color: rgb(138, 8, 92);
+    border-bottom: 1px solid rgb(138, 8, 92);
+}
+
+.navbar-brand:hover {
+    font-size: 42px;
+    color: rgb(138, 8, 92);
+    border: 2px solid rgb(138, 8, 92);
+    box-shadow: 10px 10px 10px;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.dropdown-toggle {
+    background-color: rgba(255, 255, 255, 0);
+}

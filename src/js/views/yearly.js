@@ -1,7 +1,7 @@
 import "../../styles/home.scss";
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar } from "../component/navbar";
+import Navbar from "../component/navbar";
 
 class Yearly extends React.Component {
 	constructor() {

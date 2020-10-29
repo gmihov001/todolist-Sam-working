@@ -1,7 +1,7 @@
 import "../../styles/home.scss";
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar } from "../component/navbar";
+import Navbar from "../component/navbar";
 import Monthly from "./monthly";
 
 class Home extends React.Component {
@@ -45,6 +45,9 @@ class Home extends React.Component {
 						</li>
 						{this.state.daily.map((td, i) => (
 							<li key={i} className="todoList">
+								<Link to="/morecard">
+									<div className="myButton">more</div>
+								</Link>
 								<textarea
 									type="text"
 									value={td}
@@ -63,9 +66,6 @@ class Home extends React.Component {
 								<div onClick={() => this.deleteDaily(i)} className="deleteX">
 									<i className="fab fa-xing" />
 								</div>
-								<Link to="/morecard">
-									<button className="myButton">more</button>
-								</Link>
 							</li>
 						))}
 					</ul>

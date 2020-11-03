@@ -28,7 +28,6 @@ class Monthly extends React.Component {
 	render() {
 		return (
 			<>
-				<Navbar />
 				<div className="container mt-5 col-4 text-center">
 					<div className="header">MONTHLY</div>
 					<ul>

@@ -14,7 +14,6 @@ class Home extends React.Component {
 	render() {
 		return (
 			<>
-				<Navbar />
 				<div className="text-center homePage">Hello (user)</div>
 				<div className="container text-center mt-5 clock">
 					<Clock />

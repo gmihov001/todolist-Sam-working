@@ -1,7 +1,6 @@
 import "../../styles/home.scss";
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../component/navbar";
 
 class Weekly extends React.Component {
 	constructor() {
@@ -28,7 +27,6 @@ class Weekly extends React.Component {
 	render() {
 		return (
 			<>
-				<Navbar />
 				<div className="container mt-5 col-4 text-center">
 					<div className="header">WEEKLY</div>
 					<ul>
